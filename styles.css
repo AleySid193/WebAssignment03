@@ -1,0 +1,46 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f15a0e;
+  }
+  
+  .navbar-brand {
+  
+    font-weight: bold;
+      font-size: 24px;
+      color: #ff0000;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: all 0.3s ease; 
+    
+  }
+  
+  .navbar-brand:hover {
+    color: #ff6600;
+  }
+  .input-group input[type="text"] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .input-group button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .weather-info-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-info-item {
+    margin-bottom: 10px;
+  }
+  
+  .weather-info-item span {
+    font-weight: bold;
+  }
